@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href='http://facebook.com'></a>
+    <a href='http://youtube.com'></a>
+    <a href='http://googleplus.com'></a>
+    <a href='http://twitter.com'></a>
+</body>
+<script>
+    // IP
+    let ubicacion = window.location.host;
+    console.log(ubicacion);
+
+    // Query
+    let queryString = window.location.search;
+    console.log(queryString);
+
+    //Ir dos paginas del historial para atras
+    window.history.go(-2);
+
+    // Navigator : informacion sobre el navegador
+    ubicacion = window.navigator;
+    ubicacion = window.navigator.language;
+    ubicacion = window.navigator.appName;
+    console.log(ubicacion);
+</script>
+
+</html>
+
+<!--<script src="arreglos.js"></script>-->
+<!-- <script src="iteradores.js"></script> -->
